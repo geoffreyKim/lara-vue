@@ -15,8 +15,20 @@
                                 </div>
                             </div>
                             <div class="form-group col-12">
-                                <label for="name" class="font-weight-bold">Name</label>
+                                <label for="name" class="font-weight-bold">Full Name</label>
                                 <input type="text" name="name" v-model="user.name" id="name" placeholder="Enter name" class="form-control">
+                            </div>
+                            <div class="form-group col-12 my-2">
+                                <label for="email" class="font-weight-bold">Email</label>
+                                <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
+                            </div>
+                            <div class="form-group col-12 my-2">
+                                <label for="email" class="font-weight-bold">Email</label>
+                                <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
+                            </div>
+                            <div class="form-group col-12 my-2">
+                                <label for="email" class="font-weight-bold">Email</label>
+                                <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
                             </div>
                             <div class="form-group col-12 my-2">
                                 <label for="email" class="font-weight-bold">Email</label>
