@@ -46,5 +46,8 @@ return new class extends Migration
     public function down()
     {
         Schema::dropIfExists('countries');
+        Schema::dropIfExists('county');
+        Schema::dropIfExists('constituency');
+        Schema::dropIfExists('ward');
     }
 };

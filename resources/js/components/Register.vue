@@ -23,17 +23,22 @@
                                 <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
                             </div>
                             <div class="form-group col-12 my-2">
-                                <label for="email" class="font-weight-bold">Email</label>
-                                <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
+                                <label for="email" class="font-weight-bold">National id</label>
+                                <input type="text" name="email" v-model="user.national_id" id="National id" placeholder="Enter Email" class="form-control">
                             </div>
+
+                            <div class="form-group"></div>
+                            <label>Select Country:</label>
+                            <select class='form-control' v-model='country' @change='getStates()'>
+                                <option value='0' >Select Country</option>
+                                <option v-for="data in countries" :value="data":key="countries">{{ data.name }}</option>
+                                    <!-- <item v-for="(i, index) in items" :value="i" :key="index"></item> -->
+                            </select>
                             <div class="form-group col-12 my-2">
                                 <label for="email" class="font-weight-bold">Email</label>
                                 <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
                             </div>
-                            <div class="form-group col-12 my-2">
-                                <label for="email" class="font-weight-bold">Email</label>
-                                <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
-                            </div>
+                            
                             <div class="form-group col-12">
                                 <label for="password" class="font-weight-bold">Password</label>
                                 <input type="password" name="password" v-model="user.password" id="password" placeholder="Enter Password" class="form-control">
