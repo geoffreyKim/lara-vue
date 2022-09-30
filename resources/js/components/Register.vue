@@ -23,9 +23,18 @@
                                 <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
                             </div>
                             <div class="form-group col-12 my-2">
-                                <label for="email" class="font-weight-bold">National id</label>
-                                <input type="text" name="email" v-model="user.national_id" id="National id" placeholder="Enter National id" class="form-control">
+                                <label for="national_id" class="font-weight-bold">National id</label>
+                                <input type="text" name="national_id" v-model="user.national_id" id="National id" placeholder="Enter National id" class="form-control">
                             </div>
+                            <div class="form-group col-12 my-2">
+                                <label for="national_id" class="font-weight-bold">National id</label>
+                                <input type="text" name="national_id" v-model="user.national_id" id="National id" placeholder="Enter National id" class="form-control">
+                            </div>
+                            <div class="form-group col-12 my-2">
+                                <label for="national_id" class="font-weight-bold">National id</label>
+                                <input type="text" name="national_id" v-model="user.national_id" id="National id" placeholder="Enter National id" class="form-control">
+                            </div>
+                            
 
                             <!-- <div class="form-group">
                             <label>Select Country:</label>
@@ -37,7 +46,7 @@
                         </div> -->
                             <div class="form-group col-12 my-2">
                                 <label for="position" class="font-weight-bold">Position</label>
-                                <input type="text" name="email" v-model="user.position" id="position" placeholder="Enter Position" class="form-control">
+                                <input type="text" name="position" v-model="user.position" id="position" placeholder="Enter Position" class="form-control">
                             </div>
                             
                             <div class="form-group col-12">

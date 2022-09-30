@@ -9,7 +9,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>	
-					<a class="navbar-brand" :href="data.baseURL" >Voting System</a>
+					<a class="navbar-brand" :href="data.baseURL" >E-System</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 
@@ -19,9 +19,9 @@
 							<a href="#">Home</a>
 						</router-link>
 
-						<router-link :to="{name: 'Vote'}" v-if="data.election.status==2 && !hasVoted()" tag="li" exact>
+						<!-- <router-link :to="{name: 'Vote'}" v-if="data.election.status==2 && !hasVoted()" tag="li" exact>
 							<a href="#">Vote</a>
-						</router-link>	
+						</router-link>	 -->
 
 						<router-link :to="{name: 'Result'}" v-if="data.election.status==2 && hasVoted()" tag="li">
 							<a href="#">Results</a>

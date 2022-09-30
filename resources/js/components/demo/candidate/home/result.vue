@@ -32,29 +32,7 @@ export default{
 	data: function () {
 		return {
 			results: [{
-				  "position_id": 6,
-				  "nominee_id": 1,
-				  "votes": 2
-				}, {
-				  "position_id": 8,
-				  "nominee_id": 6,
-				  "votes": 2
-				}, {
-				  "position_id": 7,
-				  "nominee_id": 5,
-				  "votes": 2
-				}, {
-				  "position_id": 7,
-				  "nominee_id": 4,
-				  "votes": 1
-				}, {
-				  "position_id": 6,
-				  "nominee_id": 2,
-				  "votes": 1
-				}, {
-				  "position_id": 8,
-				  "nominee_id": 7,
-				  "votes": 1
+				  
 				}]
 		}
 	},
