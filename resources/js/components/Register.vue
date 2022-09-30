@@ -24,16 +24,21 @@
                             </div>
                             <div class="form-group col-12 my-2">
                                 <label for="national_id" class="font-weight-bold">National id</label>
-                                <input type="text" name="national_id" v-model="user.national_id" id="National id" placeholder="Enter National id" class="form-control">
+                                <input type="text" name="national_id" v-model="user.national_id" id="National_id" placeholder="Enter National id" class="form-control">
                             </div>
                             <div class="form-group col-12 my-2">
-                                <label for="national_id" class="font-weight-bold">National id</label>
-                                <input type="text" name="national_id" v-model="user.national_id" id="National id" placeholder="Enter National id" class="form-control">
+                                <label for="country" class="font-weight-bold">Country</label>
+                                <input type="text" name="country" v-model="user.country" id="country" placeholder="Enter National id" class="form-control">
                             </div>
                             <div class="form-group col-12 my-2">
-                                <label for="national_id" class="font-weight-bold">National id</label>
-                                <input type="text" name="national_id" v-model="user.national_id" id="National id" placeholder="Enter National id" class="form-control">
+                                <label for="constituency" class="font-weight-bold">constituency</label>
+                                <input type="text" name="constituency" v-model="user.constituency" id="constituency" placeholder="Enter National id" class="form-control">
                             </div>
+                            <div class="form-group col-12 my-2">
+                                <label for="ward" class="font-weight-bold">ward</label>
+                                <input type="text" name="ward" v-model="user.ward" id="ward" placeholder="Enter National id" class="form-control">
+                            </div>
+                            
                             
 
                             <!-- <div class="form-group">
@@ -80,10 +85,15 @@ export default {
     data(){
         return {
             user:{
-                name:"",
-                email:"",
-                password:"",
-                password_confirmation:""
+                name:'',
+                email:'',
+                national_id:'',
+                country:'',
+                constituency:'',
+                ward:'',
+                position:'',
+                password:'',
+                password_confirmation:'',
             },
             validationErrors:{},
             processing:false

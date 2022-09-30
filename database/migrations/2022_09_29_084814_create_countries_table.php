@@ -18,24 +18,6 @@ return new class extends Migration
             $table->string('name');
             $table->timestamps();
         });
-        Schema::create('county', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->integer('country_id');
-            $table->string('name');
-            $table->timestamps();
-        });
-        Schema::create('coonstituency', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->integer('country_id');
-            $table->string('name');
-            $table->timestamps();
-        });
-        Schema::create('ward', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->integer('country_id');
-            $table->string('name');
-            $table->timestamps();
-        });
     }
 
     /**
@@ -46,8 +28,5 @@ return new class extends Migration
     public function down()
     {
         Schema::dropIfExists('countries');
-        Schema::dropIfExists('county');
-        Schema::dropIfExists('constituency');
-        Schema::dropIfExists('ward');
     }
 };

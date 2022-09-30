@@ -20,13 +20,13 @@ Route::get('{any}', function () {
 
 //Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('country-state-city','CountryStateCityController@index');
+// Route::get('country-state-city','CountryStateCityController@index');
 
-Route::post('get-states-by-country','CountryStateCityController@getState');
+// Route::post('get-states-by-country','CountryStateCityController@getState');
 
-Route::post('get-cities-by-state','CountryStateCityController@getCity');
+// Route::post('get-cities-by-state','CountryStateCityController@getCity');
 // Route::get('get_countries', [CountryStateController::class, 'getCountries','getCounty',,'getConstituency','getWard']);
 // Route::post('get_states', [CountryStateController::class, 'getStates']);
 
